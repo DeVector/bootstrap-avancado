@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap Avançado</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+
+    <style>
+        .img-grid{
+            width: 416px;
+            height: 300px;
+        }
+    </style>
+
+<body>
+
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Bootstrap Avançado</h1>
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Carrousel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Grid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Card</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="mt-5">
+        <div class="container">
+            <h2>Carrousel</h2>
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="https://cdn.pixabay.com/photo/2014/09/07/22/34/car-race-438467_960_720.jpg"
+                            alt="Carro da Ferrari">
+                        <div></div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://cdn.pixabay.com/photo/2012/11/02/13/02/car-63930_960_720.jpg"
+                            alt="Carro mustang">
+                        <div></div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100"
+                            src="https://cdn.pixabay.com/photo/2017/06/06/13/03/auto-2377221_960_720.jpg"
+                            alt="Carro mustang classico">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5">
+        <div class="container">
+            <h2>Grid</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-grid img-fluid rounded"
+                        src="https://media.istockphoto.com/id/1125274914/pt/foto/hacker-internet-computer-crime-cyber-attack-network-security-programming-code-password.jpg?s=1024x1024&w=is&k=20&c=REkEW5i6YXq0EXvI2aKxFge2kN07KioTiu5dfyAJH4Y="
+                        alt="Imagem de um teclado de computador com codigo">
+                    <h3>Focado no codigo</h3>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-grid img-fluid rounded"
+                        src="https://media.istockphoto.com/id/1403644222/pt/foto/illustration-demonstrates-the-routing-of-ip-packets-throughout-the-internet-a-lan-computer.jpg?s=1024x1024&w=is&k=20&c=dEVUu0kI0UIRSDoHRfEkh2159Ha_mfxOau4EtBK_UQ4="
+                        alt=" Imagem de codigo">
+                    <h3>Observando os erros de programação</h3>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="img-grid img-fluid rounded"
+                        src="https://media.istockphoto.com/id/1148185998/pt/vetorial/digital-java-code-text-computer-software-coding-vector-concept-programming-coding-script.jpg?s=1024x1024&w=is&k=20&c=RH2r5t-VESFI1n-efQwXhPwsO8f0PgQVkifGWsUv5jI="
+                        alt="Imagem de codigo em linhas de cores">
+                    <h3>Lendo o programa atraves de cores</h3>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Desenvolvimento de Games
+                        </header>
+                        <img src="https://thumbs.dreamstime.com/z/ilustra%C3%A7%C3%A3o-vetorial-de-desenvolvimento-jogos-com-programa%C3%A7%C3%A3o-tecnologia-digital-e-codifica%C3%A7%C3%A3o-em-desenhos-planos-desenhados-279189358.jpg?ct=jpeg" alt="Imagem de pessoas desenvolvendo com foguetes ao lado">
+                        <div class="card-body">
+                            <h4 class="card-title">Descubra como desenvolver games</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ullam similique nobis in saepe aliquam nesciunt porro nam commodi.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
